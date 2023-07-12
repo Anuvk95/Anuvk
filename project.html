@@ -1,1 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>My web page</title>
+        <style>
+        .topnav{
+            background-color:#333;
+            height:50px;
+            overflow:hidden;
+        }
+        .nav2{
+            text-align:center;
+            display:inline block;
+            justify-items:stretch;
+            padding-left: 30px;
+            padding-right:30px;
+            padding-top: 15px;
+            padding-bottom: 30px;
+        }
+        .content{
+            justify-content:space-around;
+            align-items:center;
+            display:flex;
+            flex-direction:row;
+        }
+        .box{
+            width:73%;
+            /*height:40%;*/
+            z-index:-1;
+            /*padding:5px;*/
+        }
+        a{
+            padding:30px;
+        }
+        .wrap{
+            display:inline-block;
+            margin-left:30%;
+            border-right:5px;
+            
+        }
+        .space{
+            height:100px:
+        }
+        .wrapper{
+            border:1px solid #000;
+            display:inline-block;
+            text-align: center;
+            position:absolute;
+            margin:0;
+            left:41%;
+            margin-top: 13px;
+        }
+        input,button{
+            background-color:transparent;
+            border:0;
+            
+        }
+        .layout{
+            height:55px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="space">
+            <div class="wrap">
+                <img style="width:35px;height:35px;float:left;" src="email.jpg">
+                <p style="float:left;padding-top:11px;padding-right:10px;">hellocolorlib@gmail.com</p>
+                <img style="width:15px;height:15px;float:left;margin-top:10px;" src="phone.png">
+                <p style="float:left;padding-top:11px;padding-right:30px;">65 11 188 889</p>
+               <a href="#"><img src="linkedin.png" style="width:25px;height:25px;float:right;margin-top:10px;padding-left:1px;"></a>
+               <a href="#"><img src="facebook.png" style="width:25px;height:25px;float:right;margin-top:10px;"></a>
+               <a href="#"><img src="twitter.png" style="width:25px;height:25px;float:right;margin-top:10px;"></a>
+            </div>
+            <hr style="color:black;background-color:#995566">
+        </div>
+        <div class="layout">
+        <div class="wrapper">
+            <select>
+                <option value="0">All Categories</option>
+                <option value="1">kid's wear</option>
+            </select>
+            <input type="text"/>
+            <button>GO</button>
+            </div>
+            <a href="#"><img src="likes.webp" style="width:25px;height:25px;margin-left:80%;"></a>
+        <a href="#"><img src="shopping.png" style="width:25px;height:25px;margin-left:84%;margin-top:-3%;"></a>
+         </div>
+        <div class="topnav">
+            <div class="nav2">
+                <a href="#">ALL DEPARTMENTS</a>
+            <a class="active" href="#">HOME</a>
+            <a href="#">SHOP</a>
+            <a href="#">COLLECTION</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT</a>
+            <a href="#">PAGES</a>
+        </div>
+        </div>
+        <div class="container-fluid">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!--<ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+</ol>-->
 
+<div class="carousel-inner">
+    <span class="item active">
+        <span style="align-items:center;justify-content: center;">
+        <h5 style="padding-left:95px;padding-top:95px;color:#951;">BAG.KIDS</h5><br>
+        <h1 style="padding-left:95px;display:inline-block;font-size:68px;">Black Friday</h1>
+        <p style="padding-left:95px;">Lorem Epsum Dolor sit amet,consectetur adipisicing</p>
+        <p style="padding-left:95px;">elit,sed do eiusmod tempor incididunt ut labore et dolore</p>
+        <button style="background-color:#951;margin-left:95px;border:none;color:white;padding:15px 32px;">SHOP NOW</button>
+    <img src="hero-1.jpg.webp" alt="Los Angeles" style="float:right;width:950px;height:500px;margin-top:-300px;">
+        </span>
+    </span>
+    <span class="item">
+        <span style="align-items:center;justify-content:center;"></span>
+        <h5 style="padding-left:95px;padding-top:95px;color:#951">BAG.KIDS</h5><br>
+        <h1 style="padding-left:95px;display:inline-block;font-size:68px;">Black Friday</h1>
+        <p style="padding-left:95px">Lorem Epsum Dolor sit amet,consectetur adipisicing</p>
+        <p style="padding-left:95px;">elit,sed do eiusmod tempor incididunt ut labore et dolore</p>
+        <button style="background-color:#951;margin-left:95px;border:none;color:white;padding:15px 32px;">SHOP NOW</button>
+        <img src="hero-2.jpg.webp" alt="Chicago" style="float:right;width:950px;height:500px;margin-top: -300px;">
+    </span>
+</span>   
+</div>
+</div>
+<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+</a>
+</div>
+<div class="container">
+<div class="content">
+    <div class="box">
+        <img src="mens2.jpg" style="width:80%;height:10%;position:relative;overflow:auto;padding-top:40px;">
+      <div style="padding:10px;background-color:white;height:50px;width:117px;margin-top:-21%;margin-left:6%;position:absolute">  <h3 style="position:absolute;text-align:center;margin-top:-1%;margin-left:6%;">MENS</h3></div>
+    </div>
+    <div class="box">
+        <img src="womens1.jpg" style="position:relative;width:80%;height:20%;overflow:auto;padding-top:40px;z-index:-1;">
+      <div style="padding:10px;background-color:white;height:50px;width:128px;margin-top:-21%;margin-left:7%;position:absolute;"> <h3 style="position:absolute;text-align:center;margin-top:-1%;margin-left:7%;">WOMENS</h3></div>
+    </div>
+    <div class="box">
+        <img src="kids.jpg" style="width:80%;height:30%;position:relative;padding-top:40px;overflow:auto;">
+     <div style="padding:10px;background-color:white;height:50px;width:117px;margin-top:-21%;margin-left:8%;position:absolute;"><h3 style="position:absolute;text-align:center;margin-top:-1%;margin-left:8%;">KIDS</h3></div>
+    </div>
+</div>
+</div>
+    </body>
+</html>
